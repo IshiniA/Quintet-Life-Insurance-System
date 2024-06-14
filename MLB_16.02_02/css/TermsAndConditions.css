@@ -1,0 +1,70 @@
+.TermsTLI{
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    margin-left: 40px;  
+}
+.TermsPLI{
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    position: relative;
+    left:52%;
+    bottom: 1990px;
+}
+footer{
+    margin-top: -1900px;
+    
+} 
+p{
+    text-align: justify;
+}
+h3{
+    color: rgb(0, 0, 0);
+}
+
+.topic{
+    background-color: #ffaa00;
+    border-radius: 5px;
+    width:620px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.image{
+    border-radius: 15px;
+}
+
+.botton1{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    color:#390096;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    left: 430px;
+ 
+}
+
+span{
+  background:#B799FF;
+  height:100%;
+  width:0%;
+  border-radius: 25px;
+  position:absolute;
+  left:0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+
+ }
+
+ .botton1:hover span{
+    width:100%;
+    border:none;
+}

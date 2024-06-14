@@ -1,0 +1,143 @@
+/*body*/
+body {
+  background-color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*header section styles BEGINS*/
+#logo {
+  float:left;
+}
+
+.headTopic {
+  text-align: center;
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mainHeading {
+  font-weight: bolder;
+  color: #B799FF;
+}
+
+#slogan {
+  font-weight: bold;
+  color: #ACBCFF;
+}
+
+.AlreadyAcc {
+  float: right;
+  
+}
+
+.LRB {
+  background-color: #B799FF;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+/* colors to use:
+   #B799FF
+   #ACBCFF
+   #AEE2FF
+   #E6FFFD
+  } */
+
+.Line {
+  background-color: #ACBCFF;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: #B799FF;
+}
+  
+  /*Form Styles*/
+  
+  fieldset {
+    border-color: #B799FF;
+  }
+
+  #contactimg {
+    float: right;
+  }
+  
+  #submit {
+    background-color: #B799FF;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  
+  #Back {
+    background-color: #ACBCFF;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  
+  #FullName {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #AEE2FF;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  #Email {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #AEE2FF;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  #message {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #AEE2FF;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .SubmitB {
+    float: left;
+  }
+  
+  
+/*Footer Styles BEGINS*/
+footer {
+  background-color: #ACBCFF;
+  padding: 20px;
+}
+
+.footTable {
+  text-align: left;
+}
+
+#Cpyright {
+  float: right;
+}
+/*Footer Styles ENDS*/

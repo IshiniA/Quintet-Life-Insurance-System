@@ -1,0 +1,186 @@
+<!--Registration Page-->
+<!--Coded by IT22603586 Aponso G.I.A-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quintet LIS</title>
+
+        <!--To add CSS file-->
+        <link rel="stylesheet" href="css/RegistrationFormPage.css">
+
+        <!--To add Icons-->
+        <script src="https://kit.fontawesome.com/8d1ac6ad03.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+        <!--Header section-->
+        <table width="100%">
+            <tr>
+                <td width="20%">
+                    <img src="Images/logo.png" alt="logo" width="60%" height="60%" id="logo">
+                </td>
+
+                <td width="50%">
+                    <div class="headTopic">
+                        <h1 id="mainHeading">Quintet Life Insurance</h1>
+                        <h3 id="slogan">&nbsp;&nbsp;Life is Precious. We are here to safeguard it!</h3>
+                    </div>
+                </td>
+
+                <td width="20%">
+                    <div class="AlreadyAcc">
+                        <a href="LoginPage.html">Already have an account?</a>
+                        <a href="LoginPage.html"><button class="LRB">Login</button></a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <div class="Line">
+            <!--Just to Take A empty NavBar-->
+        </div>
+
+        <br>
+    
+        <h1>Register</h1>
+
+            <!--Registration Form Begins-->
+            <fieldset>
+                <form method="POST" action="SubmitRegistrationForm.php">
+                    <label for="Uname"><b>User Name</b></label>
+                    <input type="text" placeholder="Enter User Name" name="Uname" id="Uname" required>
+
+                    <br><br>
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" id="email" pattern="[^\s@]+@[^\s@]+\.[^\s@]+" required>
+
+                    <br><br>
+
+                    <label for="Fname"><b>First Name</b></label><br>
+                    <input type="text" placeholder="Enter First Name" name="Fname" id="Fname" required>
+
+                    <br><br>
+
+                    <label for="Lname"><b>Last Name</b></label>
+                    <input type="text" placeholder="Enter Last Name" name="Lname" id="Lname" required>
+
+                    <br><br>
+
+                    <label for="DOB"><b>Date of Birth</b></label>
+                    <input type="date" placeholder="Enter DoB" name="Dob" id="DOB" required>
+
+                    <br><br>
+
+                    <label for="gender"><b>Gender</b></label>
+                    <input type="radio" name="gender" id="gender" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="gender" value="Female">
+                    <label for="female">Female</label>
+
+                    <br><br>
+
+                    <label for="ms"><b>Marital Status</b></label>
+                    <select name="ms" id="ms" required>
+                        <option value="Single">Single</option>
+                        <option value="Married">Married</option>
+                        <option value="Widowed">Widowed</option>
+                        <option value="Divorced">Divorced</option>
+                    </select>
+
+                    <br><br>
+
+                    <label for="address"><b>Address</b></label><br>
+                    <textarea placeholder="Enter Address" name="address" id="address" rows="4" cols="50"></textarea>
+
+                    <br><br>
+
+                    <label for="phone-number"><b>Phone Number</b></label>
+                    <input type="tel" placeholder="0" name="phone-number" id="phone-number" pattern="[0-9]{10}" required>
+
+                    <br><br>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" id="psw" name="psw" class="pw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+
+                    <br><br>
+
+                    <label for="psw"><b>Confirm Password</b></label>
+                    <input type="password" id="cpsw" name="psw" class="pw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br><br>
+
+                    <br>
+
+                    <input type="radio" name="pwview" id="view" value="view" onclick="viewPassword()">
+                    <label for="viewe"><i class="fa-sharp fa-solid fa-eye"></i></label>
+                    <input type="radio" name="pwview" id="view" value="hide" onclick="hidePassword()">
+                    <label for="hide"><i class="fa-solid fa-eye-slash"></i></label>
+
+                    <br><br>
+
+                    <input type="checkbox" id="accept" onclick="enableButton()"><a href="RegistrationTerms&Conditions.html">Agree Terms & Conditions.</a>
+
+                    <br><br>
+                    
+                    <div class="FormButtons">
+                        <input type="submit" value="submit" id="subbtn" onclick="checkDoB()" disabled>
+    
+                        <input type="button" value="clear" id="clear">
+                    </div>
+
+                </form>
+            </fieldset>
+            <!--Registration Form Ends-->
+        <br><br>
+       
+        <!--Footer BEGINS-->
+            <footer>
+                <table width="100%">
+                    <tr class="footTable">
+                        <th width="20%">Services</th>
+                        <th width="20%">Explore</th>
+                        <th width="20%">Need Any<br>Support?</th>
+                        <th width="20%"> </th>
+                        <th width="20%">Follow Us On</th>
+                    </tr>
+
+                    <tr class="footTable">
+                        <td>
+                            <ul>
+                                <li><a href="PPhomePage.php">Purchase Policy</a></li>
+                                <li><a href="enter login details.php">Make Payment</a></li>
+                                <li><a href="makeClaim.php">Make Claim</a></li>
+                                <li><a href="renewpolicy.php">Renew Policy</a></li>
+                            </ul>
+                        </td>
+
+                        <td>
+                            <a href="AboutUs.html">About Us</a>
+                        </td>
+                        <td>
+                            <i class="fa-solid fa-phone"></i> +94771231231<br><br>
+                            <i class="fa-solid fa-envelope"></i> quintetlifeinsurance@info.lk <br><br>
+                            <i class="fa-solid fa-fax"></i> +94112123123 <br><br>
+                        </td>
+                        <td>
+                            <i class="fa-solid fa-location-dot"></i> No.456,<br>Royal Road,<br>Colombo,<br>Sri Lanka
+                        </td>
+                        <td>
+                            <a href="#"><i class="fa-brands fa-square-facebook" style="font-size:30px;"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-twitter" style="font-size:30px;"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-instagram" style="font-size:30px;"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin" style="font-size:30px;"></i></a> 
+                            <br><br><br><br>
+                            <div id="Cpyright"><i class="fa-regular fa-copyright"></i>2023 All Rights Reserved</div>
+                        </td>
+                    </tr>
+                </table>
+            </footer>
+        <!--Footer ENDS-->
+
+
+        <!--THE JAVA SCRIPT FILE OF THE PAGE-->
+        <script src="./js/registrationPage.js"></script>
+
+    </body>
+    </html>

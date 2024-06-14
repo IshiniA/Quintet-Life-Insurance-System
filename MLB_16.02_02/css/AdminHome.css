@@ -1,0 +1,87 @@
+/*body*/
+body {
+  background-color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*header section styles BEGINS*/
+#logo {
+  float:left;
+}
+
+.headTopic {
+  text-align: center;
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mainHeading {
+  font-weight: bolder;
+  color: #B799FF;
+}
+
+#slogan {
+  font-weight: bold;
+  color: #ACBCFF;
+}
+
+.AlreadyAcc {
+  float: right;
+  
+}
+
+.LRB {
+  background-color: #B799FF;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+  
+#logout {
+  background-color: #B799FF;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 2px;
+  }
+  
+.Line {
+  background-color: #ACBCFF;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-bottom: 10px;
+ }
+  
+h1, h2, h3 {
+  color: #B799FF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#MainBoxes {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+  
+.adminsqr {
+  background-color: #B799FF;
+  border: none;
+  color: white;
+  padding: 100px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+  
+  
+  
+  

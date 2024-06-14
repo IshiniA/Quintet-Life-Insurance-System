@@ -1,0 +1,141 @@
+fieldset
+{
+	margin-bottom: 20px;
+	width:80%;
+	height:90%;
+	font-size: 13px;
+	border:2px;
+	border-style: double;
+	
+}
+#fields
+{
+	width:55% ;
+}
+legend
+{
+	font-size: 16px;
+	font-weight: bold;
+
+}
+
+.tables
+{
+	text-align: left;
+	color: black;
+	width: 100%;
+}
+.sign
+{
+	position: relative;
+	width:5%;
+	font-weight: bold;
+}
+.date
+{
+	position: relative;
+	width:4%;
+	font-weight: bold;
+}
+#field
+{
+	position: relative;
+	width:100%;
+}
+.submit
+{
+	position: relative;
+	right: 1%;
+	width:10%;
+	font-weight: bold;
+}
+.clear
+{
+	position: relative;
+	left: 10%;
+	width:10%;
+	font-weight: bold;
+}
+#set
+{
+	border:0px;
+}
+#para
+{
+	position: relative;
+	left:4%;
+	margin-right: 60%;
+	width: 50%;
+}
+#para2
+{
+	font-size: 20px;
+}
+#sets
+{
+	margin-left: 7%;
+}
+.pay
+{
+	position: relative;
+	left:40%;
+	right: 20%;
+	width:20%;
+	font-weight: bold;
+	
+}
+#renew1
+{
+	float:right;
+	margin-right: 10px;
+	margin-bottom: 1%;
+}
+#renew2
+{
+	float:left;
+	margin-left: 30px;
+}
+#renew3
+{
+	float:left;
+	margin-left: 60px;
+	margin-bottom: 50px;
+}
+#renew4
+{
+	float:left;
+	margin-left: 90px;
+	margin-bottom: 50px;
+}
+#proceed
+{
+	position: relative;
+	left:10%;
+	right: 20%;
+	width:20%;
+	font-weight: bold;
+	font-size: 15px;
+}
+#goback
+{
+	position: relative;
+	left:40%;
+	right: 20%;
+	width:20%;
+	font-weight: bold;
+	font-size: 15px;
+}
+#field1
+{
+	margin-left: 10%;
+}
+#renew9
+{
+	float:right;
+	margin-right: 10px;
+	margin-bottom: 1%;
+}
+#edit
+{
+	float:left;
+}

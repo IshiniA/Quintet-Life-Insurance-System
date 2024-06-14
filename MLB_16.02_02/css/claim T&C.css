@@ -1,0 +1,162 @@
+/* colors to use:
+   #B799FF
+   #ACBCFF
+   #AEE2FF
+   #E6FFFD
+  } */
+
+  /*header section styles BEGINS*/
+  #logo {
+      float:left;
+  }
+  
+  .headTopic {
+    right:100px;
+      text-align: center;
+      position: relative;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #mainHeading {
+    font-weight: bolder;
+    color: #B799FF;
+  
+  }
+  
+  #slogan {
+    font-weight: bold;
+    color: #ACBCFF;
+  
+  }
+  
+  
+  .LoginRegisterB {
+    float: right;
+  }
+  
+  #logout, #ViewPro {
+    background-color: #B799FF;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  
+  .LRB {
+    background-color: #B799FF;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  
+  #LogInOut {
+    background-color: #B799FF;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  /*header section styles ENDS*/
+  
+  /*Navigation Bar styles BEGINS*/
+  .navBar{
+    background-color: #ACBCFF;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    margin-bottom: 10px;    
+  }
+  
+  .navBar > ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+  }
+  
+  .navBar > ul > li{
+    gap: 25px;
+    padding-right: 50px;
+  }
+  
+  .navBar > ul > li > a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;  
+  }
+  
+  .navBar > ul > li > a:hover {
+    background-color: #B799FF;
+  }
+  /*Navigation Bar styles ENDS*/
+  
+  /*Footer Styles BEGINS*/
+  footer {
+    background-color: #ACBCFF;
+    padding: 20px;
+  }
+  
+  .footTable {
+    text-align: left;
+  }
+  
+  #Cpyright {
+    float: right;
+  }
+  /*Footer Styles ENDS*/
+
+
+/*body*/
+body {
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+
+fieldset
+{
+
+	margin-bottom: 20px;
+	width:90%;
+}
+div{
+    text-align: left;
+}
+.tables
+{
+	text-align: left;
+	color: black;
+	width: 100%;
+}
+.sign
+{
+	position: relative;
+	right:50%;
+}
+.date
+{
+	position: relative;
+	left:90%;
+}
+
+.buttons
+{
+  background-color:darkorchid;
+  font-weight: bold;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  width:12%;
+  margin-right: 15px;
+}

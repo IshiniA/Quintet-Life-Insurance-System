@@ -1,0 +1,88 @@
+/*body*/
+
+body {
+  background-color: #E6FFFD;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*header section styles*/
+#logo {
+    float:left;
+}
+
+.headTopic {
+    text-align: center;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mainHeading, h1 {
+
+  font-weight: bolder;
+  color: #B799FF;
+
+}
+
+#slogan {
+
+  font-weight: bold;
+  color: #ACBCFF;
+
+}
+
+
+.AlreadyAcc {
+  float: right;
+  
+}
+
+#Reg {
+  background-color: #B799FF;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 2px;
+  float: right;
+}
+
+/* colors to use:
+   #B799FF
+   #ACBCFF
+   #AEE2FF
+   #E6FFFD
+  } */
+
+.Line {
+    
+    background-color: #AEE2FF;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#TermCon {
+    background-color: #AEE2FF;
+}
+
+
+/*Footer Styles*/
+
+footer {
+  background-color: #AEE2FF;
+  padding: 20px;
+
+}
+
+.footTable {
+    text-align: left;
+}
+
+#Cpyright {
+  float: right;
+}
+
+ 

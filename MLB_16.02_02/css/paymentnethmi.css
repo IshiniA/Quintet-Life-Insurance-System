@@ -1,0 +1,519 @@
+/* colors to use:
+   #B799FF
+   #ACBCFF
+   #AEE2FF
+   #E6FFFD
+  } */
+
+
+/*body*/
+
+/*font- Comfortaa*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Poppins:wght@500;800&display=swap');
+body {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*header section styles BEGINS*/
+#logo {
+    float:left;
+}
+
+.headTopic {
+    text-align: center;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mainHeading {
+    font-weight: bolder;
+    color: #B799FF;
+}
+
+#slogan {
+    font-weight: bold;
+    color: #ACBCFF;
+}
+
+
+.LoginRegisterB {
+  float: right;
+  
+}
+
+.LRB {
+    background-color: #B799FF;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+#LogInOut {
+    background-color: #B799FF;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+/*header section styles ENDS*/
+
+/*Navigation Bar styles BEGINS*/
+.nav_panel {
+    background-color: #B799FF;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.nav_panel > ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    
+    
+}
+.nav_panel > ul > li{
+    gap: 25px;
+    padding-right: 50px;
+}
+.nav_panel > ul > li > a{
+    color: #ACBCFF;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+
+.nav_panel > ul > li > a:hover:not(.active) {
+  background-color: white;
+  color:black;
+}
+
+.active {
+  background-color: purple;
+}
+
+/*Navigation Bar styles ENDS*/
+
+/*Slideshow container styles BEGINS*/
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: black;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #eea1eb;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  
+  
+ /*Slideshow container styles ENDS*/
+
+/*Containt styles BEGINS*/
+
+/*Payment  style begins*/
+
+
+.paymentdetails {
+    margin-top: 100px;
+    margin-left: 150px;
+    color: rebeccapurple;
+    font-family: Poppins;
+    position: relative;
+    top: 70px;
+}
+
+.check {
+    margin-left: 160px;
+    color: rebeccapurple;
+    font-family: Poppins;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.table1 {
+    margin-top: 10px;
+    margin-left: 150px;
+    color: black;
+    font-family: Poppins;
+    text-align: left;
+    margin-bottom: 100px;
+    border-spacing: 25px;
+    background-color: #E6FFFD;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.paybutton {
+    margin-left: 900px;
+    position: relative;
+    bottom: 300px;
+    padding: 30px;
+    font-size: 30px;
+    font-family: Poppins;
+    background-color: #E6FFFD;
+    border: none;
+    color: rebeccapurple;
+    width: 220px;
+    border-radius: 20px;
+}
+
+.exceedbutton {
+    position: relative;
+    bottom: 300px;
+    margin-left: 50px;
+    font-size: 30px;
+    padding: 30px;
+    margin-right: 20px;
+    font-family: Poppins;
+    background-color: #E6FFFD;
+    border: none;
+    color: rebeccapurple;
+    border-radius: 20px;
+}
+
+.checkbox {
+    position: relative;
+    right: 1300px;
+    bottom: 100px;
+}
+
+.label {
+    position: relative;
+    left: 170px;
+    bottom: 160px;
+    font-size: 15px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+/*Payment details style ends*/
+/*Containt styles ENDS*/
+/*Footer Styles*/
+footer {
+    background-color: #B799FF;
+    padding: revert;
+    padding: 50px;
+    height: 300px;
+    color: white;
+}
+
+.footTable {
+    text-align: left;
+    color:black;
+}
+
+#Cpyright {
+  float: right;
+}
+
+/*PAYMENT GATE WAY  PAGE  BEGINS*/
+
+
+
+.topic {
+    position: relative;
+    left: 490px;
+    top: 55px;
+    font-size: 45px;
+    font-family: sans-serif;
+    color: #B799FF;
+}
+.table1 {
+    border: hidden;
+    padding: 15px;
+    font-family: sans-serif;
+    background-color: #B799FF;
+    color: black;
+    position: relative;
+    bottom: 20px;
+    left: 300px;
+}
+.textbox{
+    position:relative;
+    top:25px;
+}
+.line {
+    width: 170%;
+    height: 5px;
+}
+.button2 {
+    position: relative;
+    left: 450px;
+    width: 37%;
+    padding: 20px;
+    bottom: 80px;
+    border-color: #B799FF;
+    font-family: sans-serif;
+    background-color: white;
+    border-radius: 20px;
+    color: #B799FF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration:none;
+    
+   
+}
+    .button2:hover {
+        background-color: #B799FF;
+        color: white;
+    }
+.cvc {
+    position: relative;
+    left: 720px;
+    bottom: 420px;
+}
+.note {
+    color: #B799FF;
+    position: relative;
+    bottom: 80px;
+    left: 300px
+}
+.inthe {
+    position: relative;
+    bottom: 60px;
+    left: 300px
+    
+}
+.visaimage{
+     width:170px;
+    position:relative;
+    top:30px;
+
+}
+.container {
+    position: relative;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.content_cvc {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff6f6;
+    padding: 15px;
+    border: 1px solid #ccc;
+    font-size:10px;
+}
+
+/*PAYMENT GATE WAY  PAGE  ends*/
+/*Select payment method page begins*/
+.select_paing_method {
+    position: relative;
+    left: 470px;
+    top: 100px;
+    font-size: 40px;
+    color: #B799FF;
+}
+
+/*image css*/
+.payment_method_image0 {
+    height:200px;
+    position: relative;
+    left: 250px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+
+.payment_method_image3 {
+    height:195px;
+    position: relative;
+    left: 280px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border-radius:15px;
+
+}
+
+
+
+/*Select payment method page ends*/
+
+
+/*Enter login detail  page begins */
+
+.familyphoto {
+    width: 800px;
+    position: relative;
+    left: 700px;
+    height: 500px;
+}
+.policyholder_details {
+    position: relative;
+    bottom: 400px;
+    left: 50px;
+
+}
+#topic {
+    color: #B799FF;
+    position: relative;
+    bottom: 50px;
+}
+#policyform{
+   margin-bottom:-300px;
+   font-family:Verdana;
+
+   
+}
+#formtype1 {
+    
+    width: 350px;
+    position: relative;
+    left: 20px;
+}
+#formtype2 {
+   
+    width: 350px;
+    position: relative;
+    left: 52px;
+}
+#formtype3 {
+   
+    width: 350px;
+    position: relative;
+    left: 52px;
+}
+#submit {
+    background-color: #B799FF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    width: 620px;
+}
+/*Enter login detail  end*/
+/*Payment page begins*/
+
+.carephoto{
+
+    width:850px;
+    height:600px;
+   
+}
+.readdetails{
+    position:relative;
+    left:900px;
+    bottom:600px;
+    font-size:20px;
+    
+}
+#readdetails {
+    color: #B799FF;
+    font-size: 30px;
+}
+#rd {
+    color: #B799FF;
+}
+.but {
+    background-color: #B799FF;
+    border: none;
+    color: white;
+    padding: 15px ;
+    width: 280px;
+    position: relative;
+    bottom: 600px;
+    height: 100px;
+    text-decoration: none;
+    font-
+}
+
+#footer {
+    position: relative;
+    bottom: 450px;
+}
+#body {
+   
+   height:300px;
+}
+/*Payment page ends*/
